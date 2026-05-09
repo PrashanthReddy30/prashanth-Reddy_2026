@@ -4,9 +4,6 @@ import { loadSlim } from "tsparticles-slim";
 
 const ParticlesBackground = () => {
   const particlesInit = useCallback(async engine => {
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
     await loadSlim(engine);
   }, []);
 
@@ -14,27 +11,28 @@ const ParticlesBackground = () => {
     <Particles
       id="tsparticles"
       init={particlesInit}
-      className="absolute inset-0 z-0 pointer-events-none"
       options={{
-        fullScreen: { enable: false, zIndex: 0 },
+        fullScreen: { enable: true, zIndex: -1 },
         background: {
           color: {
             value: "transparent",
           },
         },
-        fpsLimit: 60,
+        fpsLimit: 120,
         interactivity: {
           events: {
             onHover: {
               enable: true,
-              mode: "repulse",
+              mode: "grab",
             },
             resize: true,
           },
           modes: {
-            repulse: {
-              distance: 100,
-              duration: 0.4,
+            grab: {
+              distance: 140,
+              links: {
+                opacity: 0.5
+              }
             },
           },
         },
@@ -46,17 +44,17 @@ const ParticlesBackground = () => {
             color: "#00A3FF",
             distance: 150,
             enable: true,
-            opacity: 0.2,
+            opacity: 0.15,
             width: 1,
           },
           move: {
             direction: "none",
             enable: true,
             outModes: {
-              default: "bounce",
+              default: "out",
             },
             random: false,
-            speed: 0.8,
+            speed: 0.6,
             straight: false,
           },
           number: {
@@ -64,10 +62,10 @@ const ParticlesBackground = () => {
               enable: true,
               area: 800,
             },
-            value: 40,
+            value: 60,
           },
           opacity: {
-            value: 0.3,
+            value: 0.2,
           },
           shape: {
             type: "circle",

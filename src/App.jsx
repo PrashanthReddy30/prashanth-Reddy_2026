@@ -11,7 +11,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="relative w-full min-h-screen bg-background">
+    <div className="relative w-full min-h-screen bg-[#080A0A]">
       <Navbar />
       <ParticlesBackground />
       
@@ -19,9 +19,9 @@ function App() {
       <main className="relative z-10 w-full flex flex-col">
         <Hero />
         <About />
-        <MovieWall />
-        <Timeline />
         <Skills />
+        <Timeline />
+        <MovieWall />
         <Education />
         <Contact />
       </main>
