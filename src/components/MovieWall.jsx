@@ -15,6 +15,8 @@ const movies = [
   { id: 11, title: 'Kubera', year: 'Upcoming', image: 'https://images.filmibeat.com/ph-big/2024/11/kubera-release-date-cast-crew-plot-more-about-dhanushs-upcoming-gritty-thriller1731736849_2.jpg' },
   { id: 12, title: 'Kalki 2898 AD', year: '2024', image: 'https://tse2.mm.bing.net/th/id/OIP.ZeLAWETJ9PgWyYJ0pi6mowHaLk?rs=1&pid=ImgDetMain&o=7&rm=3' },
   { id: 13, title: 'Salaar', year: '2023', image: 'https://preview.redd.it/salaar-new-poster-and-announcement-v0-85s9cu4uhuzb1.jpg?width=1080&crop=smart&auto=webp&s=cb3ccf00234a37f4961d069a11841284606dfa20' },
+  { id: 14, title: 'Ayalaan', year: '2024', image: 'https://image.tmdb.org/t/p/original/5sT4DxOYyMv9BJBRl64S4NfOuss.jpg' },
+  { id: 15, title: 'Mahaveerudu', year: '2023', image: 'https://tse2.mm.bing.net/th/id/OIP.suwXf1p4FjMHyEIKHkBddAHaJO?rs=1&pid=ImgDetMain&o=7&rm=3' },
 ];
 
 const MovieWall = () => {
