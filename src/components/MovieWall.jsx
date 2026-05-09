@@ -7,7 +7,7 @@ const movies = [
   { id: 3, title: 'Devara', year: 'Upcoming', image: 'https://m.media-amazon.com/images/M/MV5BZWEwNmYwYTAtMmQxYS00ZTgwLWE0NmUtNGIwZDEyZmYwN2EwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg' },
   { id: 4, title: 'Game Changer', year: 'Upcoming', image: 'https://image.tmdb.org/t/p/original/gDStKH2GKyk5uIX46FAuPddTotZ.jpg' },
   { id: 5, title: 'Leo', year: '2023', image: 'https://i.pinimg.com/originals/46/37/db/4637dbeccdf457d9086f4e19e3737863.jpg' },
-  { id: 6, title: 'Adipurush', year: '2023', image: 'https://www.cinejosh.com/newsimg/newsmainimg/stay-tuned-for-adipurush-review_b_1606231200.jpg' },
+  { id: 6, title: 'Adipurush', year: '2023', image: 'https://tse4.mm.bing.net/th/id/OIP._itXhBmZZFUd2XL1-Do0oAHaJQ?rs=1&pid=ImgDetMain&o=7&rm=3' },
   { id: 7, title: 'Sita Ramam', year: '2022', image: 'https://m.media-amazon.com/images/M/MV5BN2RjZDJhYzUtOTQ5Yy00OWM3LWE5OTctM2Y0YWVmNzAzODllXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX1000_.jpg' },
   { id: 8, title: 'Thandel', year: 'Upcoming', image: 'https://andhrawatch.com/wp-content/uploads/2024/09/thandel.jpg' },
   { id: 9, title: 'Kantara', year: '2022', image: 'https://panmovies.com/wp-content/uploads/al_opt_content/IMAGE/panmovies.com/wp-content/uploads/2025/09/Kantara-2-Movie-Review-2025-Star-Cast-Climax-Story-Rishab-Shetty-Kantara-2-Movie-Review-1024x576.png' },
