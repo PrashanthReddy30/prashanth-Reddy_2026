@@ -21,7 +21,7 @@ const timelineData = [
     role: "Business Development Manager",
     company: "Lakme Academy",
     icon: <Target className="w-5 h-5" />,
-    logo: "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=100071881734491",
+    logo: "https://tse4.mm.bing.net/th/id/OIP.euoDXr7HFXp_ZzebbDac_QHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
     description: "Growth strategy, client relations, and identifying new market opportunities.",
   },
   {
