@@ -1,5 +1,5 @@
 import React from 'react';
-import MovingLinesBackground from './components/MovingLinesBackground';
+import ParticlesBackground from './components/ParticlesBackground';
 import Hero from './components/Hero';
 import About from './components/About';
 import MovieWall from './components/MovieWall';
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="relative w-full min-h-screen bg-[#080A0A]">
       <Navbar />
-      <MovingLinesBackground />
+      <ParticlesBackground />
       
       {/* Main Content Container with relative positioning to sit above particles */}
       <main className="relative z-10 w-full flex flex-col">

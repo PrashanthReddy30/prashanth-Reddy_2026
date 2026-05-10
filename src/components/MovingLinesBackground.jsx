@@ -39,7 +39,7 @@ const MovingLinesBackground = () => {
     let animationId;
     const draw = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      ctx.strokeStyle = 'rgba(0, 163, 255, 0.08)'; // subtle cyan glow
+      ctx.strokeStyle = 'rgba(0, 163, 255, 0.25)'; // brighter cyan glow
       ctx.lineWidth = 1;
 
       lines.forEach((line) => {
@@ -71,7 +71,7 @@ const MovingLinesBackground = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="pointer-events-none absolute inset-0 -z-10"
+      className="pointer-events-none fixed inset-0 z-0"
     />
   );
 };
