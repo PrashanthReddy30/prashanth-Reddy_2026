@@ -25,7 +25,7 @@ const educationData = [
 
 const Education = () => {
   return (
-    <section id="education" className="py-24 px-6 relative z-10 bg-[#0A0D0D]">
+    <section id="education" className="py-24 px-6 relative z-10 bg-transparent">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -35,7 +35,7 @@ const timelineData = [
 
 const Timeline = () => {
   return (
-    <section id="journey" className="py-24 px-6 relative z-10 bg-[#0A0D0D]">
+    <section id="journey" className="py-24 px-6 relative z-10 bg-transparent">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

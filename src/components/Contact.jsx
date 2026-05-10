@@ -4,7 +4,7 @@ import { Mail, Linkedin, MessageCircle } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-24 px-6 relative z-10 bg-[#080A0A] border-t border-white/5">
+    <section id="contact" className="py-24 px-6 relative z-10 bg-transparent border-t border-white/5">
       <div className="max-w-6xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}

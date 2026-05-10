@@ -96,7 +96,7 @@ const Skills = () => {
   }, [activeSkill]);
 
   return (
-    <section id="skills" className="py-24 px-6 relative z-10 bg-[#0A0D0D]">
+    <section id="skills" className="py-24 px-6 relative z-10 bg-transparent">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

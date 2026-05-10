@@ -22,7 +22,7 @@ const movies = [
 
 const MovieWall = () => {
   return (
-    <section id="work" className="py-24 px-6 relative z-10 bg-[#0A0D0D]">
+    <section id="work" className="py-24 px-6 relative z-10 bg-transparent">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
