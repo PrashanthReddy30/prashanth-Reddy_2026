@@ -19,10 +19,10 @@ function App() {
       <main className="relative z-10 w-full flex flex-col">
         <Hero />
         <About />
-        <Skills />
-        <Timeline />
         <MovieWall />
+        <Timeline />
         <Education />
+        <Skills />
         <Contact />
       </main>
     </div>
