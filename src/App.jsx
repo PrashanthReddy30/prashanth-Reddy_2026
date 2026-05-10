@@ -11,7 +11,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="relative w-full min-h-screen bg-[#080A0A]">
+    <div className="relative w-full min-h-screen">
       <Navbar />
       <ParticlesBackground />
       
