@@ -17,7 +17,7 @@ const movies = [
   { id: 13, title: 'Salaar', year: '2023', image: 'https://preview.redd.it/salaar-new-poster-and-announcement-v0-85s9cu4uhuzb1.jpg?width=1080&crop=smart&auto=webp&s=cb3ccf00234a37f4961d069a11841284606dfa20' },
   { id: 14, title: 'Ayalaan', year: '2024', image: 'https://image.tmdb.org/t/p/original/5sT4DxOYyMv9BJBRl64S4NfOuss.jpg' },
   { id: 15, title: 'Mahaveerudu', year: '2023', image: 'https://tse2.mm.bing.net/th/id/OIP.suwXf1p4FjMHyEIKHkBddAHaJO?rs=1&pid=ImgDetMain&o=7&rm=3' },
-  { id: 16, title: 'Bharateeyudu 2', year: '2024', image: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Indian_2_poster.jpg/500px-Indian_2_poster.jpg' },
+  { id: 16, title: 'Bharateeyudu 2', year: '2024', image: 'https://images.moviebuff.com/b3be568b-1550-4c5c-b71f-89d6fd3e3baf?w=1000' },
 ];
 
 const MovieWall = () => {
