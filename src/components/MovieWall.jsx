@@ -18,7 +18,7 @@ const movies = [
   { id: 14, title: 'Ayalaan', year: '2024', image: 'https://image.tmdb.org/t/p/original/5sT4DxOYyMv9BJBRl64S4NfOuss.jpg' },
   { id: 15, title: 'Mahaveerudu', year: '2023', image: 'https://tse2.mm.bing.net/th/id/OIP.suwXf1p4FjMHyEIKHkBddAHaJO?rs=1&pid=ImgDetMain&o=7&rm=3' },
   { id: 16, title: 'Bharateeyudu 2', year: '2024', image: 'https://images.moviebuff.com/b3be568b-1550-4c5c-b71f-89d6fd3e3baf?w=1000' },
-  { id: 17, title: 'Daaku Maharaaj', year: '2025', image: 'https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/daaku-maharaaj-et00419992-1731666699.jpg' },
+  { id: 17, title: 'Daaku Maharaaj', year: '2025', image: 'https://www.telugubulletin.com/wp-content/uploads/2025/01/Daku-Maharaj-Review.jpeg' },
 ];
 
 const MovieWall = () => {
